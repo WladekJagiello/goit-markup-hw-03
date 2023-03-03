@@ -177,9 +177,13 @@ main {
 
 /* feature */
 
+.featurs {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .featurs-list {
   margin: 0;
-  padding-top: 120px;
   padding-left: 0;
 }
 
@@ -203,10 +207,13 @@ main {
 
 /* samples */
 
+.samples {
+  padding-bottom: 120px;
+}
+
 .samples-text {
   margin-top: 0;
   margin-bottom: 72px;
-  padding-top: 120px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
@@ -219,17 +226,17 @@ main {
 .samples-list {
   margin: 0;
   padding-left: 0;
-  padding-bottom: 120px;
 }
 
 /* team */
 
 .team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--background-color);
 }
 
 .team-text {
-  padding-top: 120px;
   margin-top: 0;
   margin-bottom: 72px;
   font-weight: 700;
@@ -243,7 +250,6 @@ main {
 
 .team-list {
   margin: 0;
-  padding-bottom: 120px;
   padding-left: 0;
 }
 
@@ -255,8 +261,13 @@ main {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-item-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .team-name {
-  margin-top: 32px;
+  margin-top: 0;
   margin-bottom: 8px;
   font-weight: var(--font-weight-h);
   font-size: var(--font-size-h);
@@ -268,7 +279,7 @@ main {
 
 .team-function {
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 0;
   line-height: var(--line-height-p);
   text-align: center;
   letter-spacing: var(--letter-spacing-p);
@@ -309,6 +320,7 @@ footer {
 }
 
 .advise {
+  margin-bottom: 0;
   line-height: var(--line-height-p);
   letter-spacing: var(--letter-spacing-p);
   color: var(--accent-color);
@@ -316,11 +328,14 @@ footer {
 
 /* Portfolio */
 
+.projects {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filters-list {
   justify-content: center;
   margin: 0;
-  padding-top: 96px;
-  padding-bottom: 72px;
   padding-left: 0;
 }
 
@@ -345,9 +360,8 @@ footer {
 .projects-list {
   justify-content: center;
   flex-wrap: wrap;
-  margin: auto;
+  margin-top: 72px;
   padding: 0;
-  padding-bottom: 120px;
 }
 
 .projects-item {
@@ -365,8 +379,13 @@ footer {
   margin-bottom: 0;
 }
 
+.projects-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .projects-direction {
-  margin-top: 32px;
+  margin-top: 0;
   margin-bottom: 8px;
   margin-left: 16px;
   font-weight: var(--font-weight-h);
@@ -377,7 +396,8 @@ footer {
 }
 
 .projects-text {
-  margin-bottom: 32px;
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 16px;
   line-height: var(--line-height-p);
   letter-spacing: var(--letter-spacing-p);
