@@ -368,6 +368,7 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 72px;
+  margin-bottom: 0;
   padding: 0;
 }
 
@@ -394,7 +395,7 @@ footer {
 .projects-direction {
   margin-top: 0;
   margin-bottom: 8px;
-  margin-left: 16px;
+  padding-left: 16px;
   font-weight: var(--font-weight-h);
   font-size: var(--font-size-h);
   line-height: var(--line-height-h);
@@ -405,7 +406,7 @@ footer {
 .projects-text {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 16px;
+  padding-left: 16px;
   line-height: var(--line-height-p);
   letter-spacing: var(--letter-spacing-p);
   color: var(--text-color);
